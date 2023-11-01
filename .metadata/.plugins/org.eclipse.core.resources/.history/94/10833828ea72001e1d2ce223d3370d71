@@ -1,0 +1,25 @@
+package enum_type;
+
+public class Test2 {
+
+	public static void main(String[] args) {
+		/*
+		 * enum(Week)와 switch-case 문을 활용해
+		 * 평일이면(월~목) : "~~"
+		 * 금요일 : "~~"
+		 * 주말 : "~~"
+		 */
+		
+		Week
+		
+		
+	}
+
+}
+
+// enum type 'Week' 정의
+// 각 요일 앞 세글자 대문자로 작성
+
+enum Week {
+	MON, TUE, WED, THU, FRI, SAT, SUN
+}

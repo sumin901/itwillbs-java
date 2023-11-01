@@ -1,0 +1,43 @@
+package access_modifier;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	
+		// 은행 계좌 (Account) 클래스 인스턴스 생성
+		// Setter 메서드로 111-1111-111, 홍길동 ,10,000 입력
+		// Getter 메서드로 계좌번호, 예금주명, 현재 잔고를 출력하라
+		
+		
+		
+		
+	} //main
+
+	
+		
+		
+		
+	} // test
+	
+class Account {
+		
+	
+}
+	
+	
+	
+	
+
+
+/*
+*
+* Account 클래스 정의
+* 
+* - 멤버변수 : private 접근 제한자로 선언하라 ( accountNo(문자열), ownerName(문자열), balance(정수) )
+* 
+* - Getter/Setter 메서드 정의 (단축키 사용)
+*
+*
+*
+*/

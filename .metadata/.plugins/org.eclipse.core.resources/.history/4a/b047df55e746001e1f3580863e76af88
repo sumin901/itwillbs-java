@@ -1,0 +1,22 @@
+package constructor_overloading;
+
+public class Test_2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+/*
+ * 날짜를 관리하는 MyDate2 클래스 정의
+ * 
+ *  - 멤버변수 : 연도(year, int), 월(month, int), 일(day, int) >> 접근제한자 private 설정
+ *  
+ *  - 파라미터 생성자 
+ *   1) 기본 : 1999년 1월 1일로 초기화
+ *   2) 파라미터 생성자 : 
+ *    2-1) 연도를 전달받아 초기화하고, 1월 1일로 초기화
+ *    2-2) 연도, 월을 전달받아 초기화하고, 1일로 초기화
+ *    2-3) 연도, 월, 일을 전달받아 초기화 
+ */

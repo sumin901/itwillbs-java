@@ -1,0 +1,10 @@
+package access_modifier;
+
+public class Person {
+	// 멤버변수 선언
+	protected String name; // 외부에서 멤버 변수에 접근이 불가능하도록 private 접근 제한자 적용
+	int age;
+	
+	
+	
+}

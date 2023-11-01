@@ -1,0 +1,23 @@
+package constructor_overloading;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+
+/*
+ * 날짜를 관리하는 MyDate 클래스 정의
+ * 
+ *  - 멤버변수 : 연도(year, int), 월(month, int), 일(day, int)
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ */

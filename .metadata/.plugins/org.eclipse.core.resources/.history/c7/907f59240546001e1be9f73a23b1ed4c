@@ -1,0 +1,18 @@
+package access_modifier;
+
+public class Person {
+	// 멤버변수 선언
+	private String name; // 외부에서 멤버 변수에 접근이 불가능하도록 private 접근 제한자 적용
+	int age;
+	
+	// 멤버변수 대신 접근하도록 Geeter와 Setter 메서드 정의(public 접근 제한자 사용)
+	// 1. Getter 메서드 정의
+	//  => 파라미터는 없고, 리턴값만 있는 메서드
+	// String 타입 멤버변수 name에 대한 Getter 메서드
+	
+	public String getName() {
+		
+	}
+	
+	
+}

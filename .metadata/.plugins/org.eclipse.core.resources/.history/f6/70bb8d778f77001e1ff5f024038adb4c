@@ -1,0 +1,20 @@
+package generic;
+
+public class Ex3 {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
+
+// 제네릭 타입의 상속과 구현
+class Class1<P> {}
+interface Interface1<Q> {}
+
+// 부모 타입에 제네릭 타입이 지정되어 있을 경우
+// 서브 클래스에서 상속 받을 때 부모의 타입 파라미터를 명시해야한다
+class SubClass extends Class1<P> implements Interface1<Q> {
+	
+}

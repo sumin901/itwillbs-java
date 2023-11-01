@@ -1,0 +1,48 @@
+package string;
+
+public class Ex {
+
+	public static void main(String[] args) {
+		/*
+		 * 			String 객체(문자열) 생성 방법 두 가지
+		 * 1. 리터럴 할당을 통해 생성(통상적인 방법)
+		 *    => 상수풀(Constant Pool)에서 동일한 문자열이 존재하는지 검사 후
+		 *    	 존재하지 않으면 새로 생성하고, 존재하면 해당 주소값을 리턴한다
+		 * 
+		 * 2. 일반적인 클래스 인스턴스를 생성하는 방법 (new 연산자 사용)
+		 *    => new 연산자에 의해 Heap 메모리에 문자열 객체(인스턴스)를 생성하며,
+		 *       동일한 문자열을 가진 객체가 존재하더라도 무조건 새로 생성함
+		 * 
+		 * 
+		 */
+		String str = "hello";
+		String str2 = "hello";
+		if (str == str2) {
+			System.out.println("s1, s2 : 주소값 같다");
+		} else {
+			System.out.println("s1, s2 : 주소값 다르다");
+		}
+		
+		if (str.equals(str2)) {
+			System.out.println("s1, s2 문자열 내용 같다");
+		} else {
+			System.out.println("s1, s2 문자열 내용 다르다");
+
+		}
+		System.out.println("----------------------------");
+		String str3 = new String("qwer");
+		String str4 = new String("qwer");
+		if (str3 == str4) {
+			System.out.println("s3, s4 : 주소값 같다");
+		} else {
+			System.out.println("s3, s4 : 주소값 다르다");
+		}
+		if (str.equals(str2)) {
+			System.out.println("s3, s4 : 문자열 내용 같다");
+		} else {
+			System.out.println("s3, s4 :문자열 내용 다르다");
+		}
+		
+	}
+
+}

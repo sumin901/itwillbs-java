@@ -1,0 +1,66 @@
+package constructor_overloading;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		MyDate m1 = new MyDate(2023,8,30);
+		m1.showDate();
+		
+		MyDate m2 = new MyDate(2023,8);
+		m2.showDate();
+		
+		MyDate m3 = new MyDate(2023);
+		m3.showDate();
+		
+	}
+
+}
+
+
+/*
+ * 날짜를 관리하는 MyDate 클래스 정의
+ * 
+ *  - 멤버변수 : 연도(year, int), 월(month, int), 일(day, int)
+ *  
+ *  - 생성자 
+ *   1) 기본 : 1999년 1월 1일로 초기화
+ *   2) 파라미터 생성자 : 
+ *    2-1) 연도를 전달받아 초기화하고, 1월 1일로 초기화
+ *    2-2) 연도, 월을 전달받아 초기화하고, 1일로 초기화
+ *    2-3) 연도, 월, 일을 전달받아 초기화 
+ */
+
+class MyDate {
+	
+	int year = 1999;
+	int month = 1;
+	int day = 1;
+	
+	public MyDate(int year, int month, int day) {
+		System.out.println("Mydate(int, int, int) 호출");
+		this.year = year;
+		this.month = month;
+		this.day = day;
+	}
+
+	public MyDate(int year, int month) {
+		System.out.println("Mydate(int, int) 호출");
+		this.year = year;
+		this.month = month;
+	}
+
+	public MyDate(int year) {
+		System.out.println("Mydate(int) 호출");
+		this.year = year;
+	}
+	
+	public void showDate () {
+		System.out.println(year + "년 " + month + "월 " + day + "일");
+	}
+	
+	
+	
+	
+}

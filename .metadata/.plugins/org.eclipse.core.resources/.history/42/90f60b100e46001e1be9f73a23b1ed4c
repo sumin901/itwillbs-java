@@ -1,0 +1,22 @@
+package thisex;
+
+public class ThisExample {
+	int day;
+	int month;
+	int year;
+	
+	public void setYear(int year) {
+		this.year = year; // Birthday.year = year; 과 같다
+		
+	}
+	
+	public void printThis() {
+		System.out.println(this);
+	}
+	
+	
+	
+
+}
+
+public class ThisExample

@@ -1,0 +1,15 @@
+package collection_framwork;
+
+public class Test {
+
+	public static void main(String[] args) {
+		/*
+		 * 로또 번호 생성기 작성
+		 * 
+		 * 1. Set 타입 객체 myLotto
+		 * 
+		 */
+
+	}
+
+}

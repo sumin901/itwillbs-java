@@ -1,0 +1,6 @@
+package access_modifier;
+
+public class Person {
+	String name;
+	int age;
+}

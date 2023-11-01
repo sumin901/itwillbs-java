@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;collection_framwork&apos; to &apos;collection_framework&apos;&#x0D;&#x0A;- Original project: &apos;JAVA1101&apos;&#x0D;&#x0A;- Original element: &apos;JAVA1101/src/collection_framwork&apos;&#x0D;&#x0A;- Renamed element: &apos;JAVA1101/src/collection_framework&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;collection_framwork&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;collection_framwork" name="collection_framework" qualified="false" references="true" stamp="1698804724777" textual="false" version="1.0"/>
+</session>

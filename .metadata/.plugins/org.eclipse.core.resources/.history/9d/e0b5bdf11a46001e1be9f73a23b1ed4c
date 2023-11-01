@@ -1,0 +1,30 @@
+package method_overloading;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// PrintOverLoading 클래스 인스턴스 생성
+		// 객체의 print() 메서드를 호출해 정수,실수,문자열 전달
+		PrintOverLoading pol = new PrintOverLoading();
+		pol.print(1);
+		pol.print(1.2);
+		pol.print("문자열");
+		
+	}
+
+}
+// 정수, 실수, 문자열 데이터 1개를 전달받아 출력하는 print()메서드 오버로딩
+// 파라미터가 없는 print() 메서드까지 정의 (-> 줄바꿈)
+class PrintOverLoading {
+	public void print(int num) {
+		System.out.println(num);
+	}
+	public void print(double num) {
+		System.out.println(num);
+	}
+	public void print(String str) {
+		System.out.println(str);
+	}
+}
+
+

@@ -1,0 +1,46 @@
+package constructor_overloading;
+
+public class Ex {
+
+	public static void main(String[] args) {
+		/*
+		 * 
+		 * 생성자 오버로딩
+		 * 
+		 * - 메서드 오버로딩과 동일
+		 * - 생성자 호출 시 다양한 형태의 파라미터를 전달해 객체를 다양하게 초기화 하는 목적
+		 * 
+		 * 
+		 * 
+		 * 
+		 * 
+		 */
+	}
+
+}
+
+
+class Person3 {
+	
+	String nation;
+	String name;
+	String jumin;
+	
+	// 기본 생성자 정의
+	public Person3 () {
+		System.out.println("Person3() 생성자 호출");
+	}
+	
+	// 국가는 자동으로 "대한민국"으로 초기화
+	// 파라미터 2개 (name, jumin)을 전달받아 초기화하는 생성자 정의
+	
+	public Person3 (String name, String jumin) {
+		System.out.println("Person3(String, String) 호출");
+		nation = "대한민국";
+	}
+	
+	
+	
+	
+	
+}
