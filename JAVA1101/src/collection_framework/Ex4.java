@@ -48,6 +48,28 @@ public class Ex4 {
 		// Collection values() : Map 객체 내 모든 값 리턴 
 //		List list = (List) map.values() ! 직접 다운 캐스팅 불가능
 		List list = new ArrayList(map.values());
+
+		// Map은 객체 크기만큼 반복문 사용해 차례로 요소 사용이 불가능함
+		// => 대신 keySet(), values() 결과를 사용해 반복 가능함
+		for(Object o : map.keySet()) {
+			System.out.println(map.get(o));
+		}
+		
+		// 제네릭 타입으로 키의 타입, 값의 타입 지정
+		Map<String, String> map2 = new HashMap<>();
+		// 전화번호부
+		map2.put("010-1234-1234", "soomin");
+		map2.put("010-4556-1781", "soomin");
+		map2.put("010-7157-2188", "minsoo");
+		
+		System.out.println(map2);
+		
+		// containsValue()
+		System.out.println("soomin 존재 ? : " + map2.containsValue("soomin"));
+		System.out.println("010-1234-1224 존재 ? : " + map2.containsKey("010-1234-1224"));
+		
+		
+		
 	}
 
 }
